@@ -2,7 +2,7 @@ import { describe, expect, test } from 'vitest'
 
 import { isEmpty } from '../isEmpty'
 
-describe('isObject', () => {
+describe('isEmpty', () => {
   test.each([
     [{}, true],
     [[], true],

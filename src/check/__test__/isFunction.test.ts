@@ -2,7 +2,7 @@ import { describe, expect, test } from 'vitest'
 
 import { isFunction } from '../isFunction'
 
-describe('isObject', () => {
+describe('isFunction', () => {
   test.each([
     [() => {}, true],
     [function() {}, true],

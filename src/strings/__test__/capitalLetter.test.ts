@@ -2,11 +2,12 @@ import { describe, expect, test } from 'vitest'
 
 import { capitalLetter } from '../capitalLetter'
 
-describe('isObject', () => {
+describe('capitalLetter', () => {
   test.each([
     ['hola mundo', 'Hola mundo'],
     ['juan', 'Juan'],
-    ['prueba test capitalacer', 'Prueba test capitalacer']
+    ['HOLA MUNDO', 'Hola mundo'],
+    ['prueba TeSt capitaLAcer', 'Prueba test capitalacer']
   ])('capitalLetter(%j) should be %j', (arg, expected) => {
     expect(capitalLetter(arg)).toStrictEqual(expected)
   })

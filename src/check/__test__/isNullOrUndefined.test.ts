@@ -2,7 +2,7 @@ import { describe, expect, test } from 'vitest'
 
 import { isNullOrUndefined } from '../isNullOrUndefined'
 
-describe('isObject', () => {
+describe('isNullOrUndefined', () => {
   test.each([
     [{}, false],
     [[], false],
