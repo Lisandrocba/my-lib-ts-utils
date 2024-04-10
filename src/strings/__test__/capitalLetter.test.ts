@@ -7,7 +7,8 @@ describe('capitalLetter', () => {
     ['hola mundo', 'Hola mundo'],
     ['juan', 'Juan'],
     ['HOLA MUNDO', 'Hola mundo'],
-    ['prueba TeSt capitaLAcer', 'Prueba test capitalacer']
+    ['prueba TeSt capitaLAcer', 'Prueba test capitalacer'],
+    [123, '']
   ])('capitalLetter(%j) should be %j', (arg, expected) => {
     expect(capitalLetter(arg)).toStrictEqual(expected)
   })
