@@ -21,5 +21,5 @@ export default defineConfig({
   test: {
     globals: true,
   },
-  plugins: [dts({ outDir: "dist", include: ["src/"] }), tsconfigPaths()],
+  plugins: [dts({ outDir: "dist", include: ["src/"], exclude: ["**/__test__/**"] }), tsconfigPaths()],
 });
