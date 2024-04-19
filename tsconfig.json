@@ -12,11 +12,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-
     "paths": {
       "@/*": ["./src/*"],
     },
-
+    "declaration": true,
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
