@@ -1,9 +1,10 @@
 {
   "name": "lisandrocba-lib-js-utils",
   "description": "Libreria de utilidades",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "./dist/my-lib.umd.cjs",
+  "types": "index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/my-lib.js",
