@@ -4,7 +4,7 @@ import { debounce } from '../debounce'
 
 describe('debounce', () => {
   beforeEach(() => {
-    vi.useFakeTimers() 
+    vi.useFakeTimers()
   })
 
   afterEach(() => {
